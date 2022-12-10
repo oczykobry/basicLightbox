@@ -82,7 +82,7 @@
 		document.querySelector('button.video').onclick = () => {
 
 			basicLightbox.create(`
-				<video controls data-id="2">
+				<video controls data-id="2" webkit-playsinline playsinline>
 					<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
 				</video>
 			`).show()
